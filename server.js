@@ -43,7 +43,6 @@ app.get("/api/:date", function (req, res) {
     objToReturn = {
       error: "Invalid Date"
     };
-    res.json(objToReturn);
   } else {
     objToReturn = {
       unix: da.getTime(),
